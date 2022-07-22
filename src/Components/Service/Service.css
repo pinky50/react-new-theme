@@ -1,0 +1,22 @@
+.service-wrapper{
+    border: 1px solid lightgrey;
+    text-align: center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: all .5s ease;
+    /* box-shadow: 1px 1px 1px #ccc; */
+}
+.service-wrapper:hover {
+    border: 1px solid #57C0E7;
+    transform: translate(0, -5px);
+    /* background: #57C0E7; */
+}
+
+.service-icon i{
+    font-size: 35px;
+}
+
+.service-content{
+    color: #3a3939;
+}

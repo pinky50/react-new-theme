@@ -1,0 +1,140 @@
+
+/*Portfolio start here*/
+#portfolio .button {
+    display: inline-block;
+    /* background: none; */
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    color: #000;
+    padding: 5px 10px;
+    /* font-weight: 600; */
+    margin-right: 20px;
+    transition: all 0.4s;
+    margin-bottom: 15px;
+}
+#portfolio .button:hover{
+    background-color: #57C0E7;
+    color: #fff;
+}
+
+#portfolio .button:focus {
+    outline: none;
+}
+
+#portfolio .button.is-checked {
+    background-color: #57C0E7;
+    color: #fff;
+}
+
+/* #portfolio .button-group .button {
+    margin-right: 20px;
+    font-size: 20px;
+} */
+
+.element-item {
+    position: relative;
+    margin-bottom: 20px;
+    color: #262524;
+    overflow: hidden;
+    /* padding-left: 0;
+    padding-right: 0; */
+    z-index: 1;
+}
+
+
+/* .element-item:hover::before {
+    opacity: 1;
+}
+
+.element-item::before {
+    content: "";
+    background: rgba(17, 17, 17, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+} */
+
+.element-item img {
+    transition: all .3s ease-in;
+    height: 235px;
+    width: 100%;
+}
+
+/* .element-item:hover img {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    overflow: hidden;
+} */
+
+ .element-item .portfolio-overlay {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    /* outline: 1px solid #fff; */
+    /* outline-offset: -15px; */
+} 
+
+.portfolio-overlay a {
+    text-decoration: none;
+    background-color: #57C0E7;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* .portfolio-text {
+    display: block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 300;
+    top: 60%;
+    filter: alpha(opacity=0);
+    transform: translateY(-20px);
+    transition: all .3s;
+    text-decoration: none;
+} */
+
+ /* .element-item:hover .portfolio-text {
+    transform: translateY(0px);
+    opacity: 1;
+}  */
+
+ .element-item:hover .portfolio-overlay {
+    opacity: 1;
+}  
+
+ .overlay-content {
+    /* color: white; */
+    font-size: 18px;
+    position: absolute;
+    /* border: 1px solid #eee; */
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.overlay-content:hover {
+    color: #fff;
+    text-decoration: none;
+} 
+/*Portfolio end here*/

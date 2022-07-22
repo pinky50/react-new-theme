@@ -1,0 +1,17 @@
+.roundbtn button{
+    border:1px solid #57C0E7;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    transition:0.5s all;
+    /* border-radius: 20px; */
+}
+.roundbtn button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+.roundbtn button:hover{
+    background-color: #57C0E7;
+    color: white!important;
+
+}

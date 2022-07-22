@@ -1,0 +1,17 @@
+.Heading-wrapper{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.Heading h1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.Heading h1 span{
+    color: #57C0E7;
+}
+.heading-content p{
+    max-width: 500px;
+    margin: 0 auto;
+    color:#808080;
+}

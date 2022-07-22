@@ -1,0 +1,40 @@
+.topbar {
+    width: 100%;
+    display: block;
+    background: #021D3A;
+    height: 50px;
+}
+.helpline {
+    font-size: 14px;
+}
+.helpline a {
+    display: inline-block;
+    line-height: 50px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.helpline span i{
+    color: #57C0E7;
+    margin-right: 7px;
+}
+@media only screen and (max-width: 320px) {
+    .helpline a {
+       font-size: 10px;
+    }
+  }
+
+.helpline a:hover{
+    color:#ffffff;
+}
+
+
+ul.social-network {
+    list-style: none;
+    display: block;
+    padding: 0;
+    text-align: right;
+    margin-top: 8px;
+}
+

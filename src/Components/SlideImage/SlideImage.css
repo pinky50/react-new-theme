@@ -1,0 +1,21 @@
+
+    .single-logo{
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+  
+      .single-logo img {
+        height: 80px;
+        /* width: 45px!important; */
+      }
+      @media only screen and (max-width: 770px) {
+        .single-logo img {
+          width: 60px!important;
+        }
+      }
+  
+      
+  
+  
+  
+    

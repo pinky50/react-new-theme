@@ -1,0 +1,39 @@
+/* .social{
+    line-height: 50px;
+} */
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 30px;
+}
+.social-circle li:hover .social-circle li a i {
+    font-size: 18px;
+}
+
+
+.social-network a.icoFacebook {
+    background-color: #3B5998;
+}
+.social-network a.icoLinkedin {
+    background-color: #007bb7;
+}
+.social-network a.icoTwitter {
+    background-color: #33ccff;
+}
+.social-network a.icoYoutube {
+    background-color: #FF0100;
+}

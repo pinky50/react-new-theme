@@ -1,0 +1,11 @@
+.software-wrapper{
+    border: 1px solid black;
+    text-align: center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.software-icon i{
+    font-size: 35px;
+}

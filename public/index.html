@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Web Development</title>
+    <link rel="stylesheet" href="Themify-icons.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-main.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-vendor.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-runtime.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-app.js" charset="UTF-8" crossorigin="*"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/4rwLQsl5N_ccppoTAwwwMrEN/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-o1nfdUm9cV7Sx6HxXDsnady1EGmCBTwza/JTA6OSowyOK+wq0YF0+F9jejHVacaR"></script><script async="" src="https://embed.tawk.to/6122242cd6e7610a49b161e8/1fdmlqkae" charset="UTF-8" crossorigin="*"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9M5SLNVQBN"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-2d0d2b7c.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-696bc286.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-f1596d96.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-48f46bef.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-4fe9d5dd.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-2d0b9454.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-f163fcd0.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/62835fee0eb/js/twk-chunk-32507910.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/isotop.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+    //portfolio js
+    if ($(".grid").length > 0) {
+      var $grid = $(".grid").isotope({
+        itemSelector: ".element-item",
+        layoutMode: "fitRows",
+        getSortData: {
+          name: ".name",
+          symbol: ".symbol",
+          number: ".number parseInt",
+          category: "[data-category]",
+          weight: function (itemElem) {
+            var weight = $(itemElem).find(".weight").text();
+            return parseFloat(weight.replace(/[\(\)]/g, ""));
+          },
+        },
+      });
+
+      //FILTER FUNCTIONS
+      var filterFns = {
+        // show if number is greater than 50
+        numberGreaterThan50: function () {
+          var number = $(this).find(".number").text();
+          return parseInt(number, 10) > 50;
+        },
+        // show if name ends with -ium
+        ium: function () {
+          var name = $(this).find(".name").text();
+          return name.match(/ium$/);
+        },
+      };
+
+      // bind filter button click
+      $("#filters").on("click", "button", function () {
+        var filterValue = $(this).attr("data-filter");
+        // use filterFn if matches value
+        filterValue = filterFns[filterValue] || filterValue;
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // bind sort button click
+      $("#sorts").on("click", "button", function () {
+        var sortByValue = $(this).attr("data-sort-by");
+        $grid.isotope({ sortBy: sortByValue });
+      });
+
+      // change is-checked class on buttons
+      $(".button-group").each(function (i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on("click", "button", function () {
+          $buttonGroup.find(".is-checked").removeClass("is-checked");
+          $(this).addClass("is-checked");
+        });
+      });
+    }
+
+     //preloader
+    // var prealoaderOption = $(window);
+    // prealoaderOption.on("load", function () {
+    //     var preloader = Query('.preloader');
+    //     var preloaderArea = Query('.preloader-area');
+    //     preloader.fadeOut();
+    //     preloaderArea.delay(350).fadeOut('slow');
+    // });
+  });
+    </script>
+    <script src="./own.js" type=""><script>
+  </body>
+</html>
