@@ -1,11 +1,37 @@
 .software-wrapper{
-    border: 1px solid black;
     text-align: center;
     min-height: 300px;
     margin-bottom: 30px;
     padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 15%);
+    transition: all 0.5s;
+    border-bottom: 3px solid #57C0E7;
+    border-top: 3px solid #57C0E7;
+    border-radius: 10px;
 }
 
 .software-icon i{
     font-size: 35px;
+    color: #57C0E7;
+    height: 60px;
+    width: 70px;
+    line-height: 60px;
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.software-wrapper:hover{
+    box-shadow: 0 12px 20px rgb(0 0 0 / 15%);
+}
+.software-wrapper:hover .software-icon i{
+    color: #fff;
+    background-color: #57C0E7;
+}
+.view-details a{
+    text-decoration: none;
+    color: #57C0E7;
+    font-size: 18px;
+}
+.view-details a:hover{
+    color: #57C0E7;
 }

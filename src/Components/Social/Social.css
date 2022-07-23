@@ -6,6 +6,12 @@ ul.social-network li {
     margin: 0 5px;
 }
 
+@media only screen and (max-width: 390px) {
+    ul.social-network li {
+        margin: 0 1px;
+    }
+  }
+
 .social-circle li a {
     display: inline-block;
     position: relative;

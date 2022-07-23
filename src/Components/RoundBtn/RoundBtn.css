@@ -1,17 +1,23 @@
 .roundbtn button{
     border:1px solid #57C0E7;
-    padding: 5px 10px;
-    text-transform: uppercase;
+    
+    /* text-transform: uppercase; */
+    padding: 10px 12px;
     transition:0.5s all;
     /* border-radius: 20px; */
 }
 .roundbtn button a{
     text-decoration: none;
     color: #000;
-    font-weight: 400;
-}
-.roundbtn button:hover{
+    font-weight: 500;
+    padding: 5px 12px;
     background-color: #57C0E7;
     color: white!important;
+    transition:0.5s all;
+}
+.roundbtn button a:hover{
+    background-color: #57C0E7;
+    color: white!important;
+    padding: 10px 12px;
 
 }
