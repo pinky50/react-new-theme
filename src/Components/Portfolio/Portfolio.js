@@ -9,7 +9,7 @@ export default function h1() {
       <PageHeader title="Portfolio" />
       <Heading content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti accusantium, aliquam laborum tempore molestias! ">
         <h1>
-          project <span>works</span>
+          our<span> latest works</span>
         </h1>
       </Heading>
       <Projects />
