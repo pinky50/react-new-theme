@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-new-theme/static/css/main.d03287dc.css",
+    "main.js": "/react-new-theme/static/js/main.f74084c0.js",
+    "index.html": "/react-new-theme/index.html",
+    "main.d03287dc.css.map": "/react-new-theme/static/css/main.d03287dc.css.map",
+    "main.f74084c0.js.map": "/react-new-theme/static/js/main.f74084c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d03287dc.css",
+    "static/js/main.f74084c0.js"
+  ]
+}
