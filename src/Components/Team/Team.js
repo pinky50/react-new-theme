@@ -7,7 +7,7 @@ export default function Team() {
       <div className="container">
         <div class="row">
           <div className="col-md-3 col-sm-12">
-            <div className="team-wrapper">
+            <div className="team-wrapper text-center">
               <div className="team-img">
                 <img
                   src="https://ovatheme.com/meup/wp-content/uploads/2019/09/about_team_1-1.jpg"
@@ -45,7 +45,7 @@ export default function Team() {
             </div>
           </div>
           <div className="col-md-3 col-sm-12">
-            <div className="team-wrapper">
+            <div className="team-wrapper text-center">
               <div className="team-img">
                 <img
                   src="https://ovatheme.com/meup/wp-content/uploads/2019/09/about_team_2-1.jpg"
@@ -83,7 +83,7 @@ export default function Team() {
             </div>
           </div>
           <div className="col-md-3 col-sm-12">
-            <div className="team-wrapper">
+            <div className="team-wrapper text-center">
               <div className="team-img">
                 <img
                   src="https://ovatheme.com/meup/wp-content/uploads/2019/09/about_team_3-1.jpg"
@@ -121,7 +121,7 @@ export default function Team() {
             </div>
           </div>
           <div className="col-md-3 col-sm-12">
-            <div className="team-wrapper">
+            <div className="team-wrapper text-center">
               <div className="team-img">
                 <img
                   src="http://demo.oceanthemes.net/borrow/wp-content/uploads/2016/12/team1-1.jpg"

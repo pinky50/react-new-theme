@@ -3,7 +3,6 @@ import PageHeader from "../PageHeader/PageHeader";
 import Heading from "../Heading/Heading";
 import Team from "../Team/Team";
 import RoundBtn from "../RoundBtn/RoundBtn";
-import { Link } from "react-router-dom";
 
 import "./About.css";
 

@@ -2,6 +2,7 @@ import React from "react";
 import Service from "../Service/Service";
 import Heading from "../Heading/Heading";
 import "./Services.css";
+// import serviceImg1 from "../global.png";
 
 export default function Services() {
   return (
@@ -21,7 +22,7 @@ export default function Services() {
             >
               <img
                 className="serviceimg"
-                src="images/servicesImg/global.png"
+                src="/images/servicesImg/laptop.png"
                 alt=""
               />
             </Service>
