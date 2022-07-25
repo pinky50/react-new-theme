@@ -1,4 +1,13 @@
 import React from "react";
+// import Project from "../../images/projectImg/project.jpeg";
+import Project1 from "../../images/projectImg/project1.jpeg";
+import Project2 from "../../images/projectImg/project2.jpeg";
+import Project3 from "../../images/projectImg/project3.jpeg";
+import Project4 from "../../images/projectImg/project4.jpeg";
+import Project5 from "../../images/projectImg/project5.jpeg";
+import Project6 from "../../images/projectImg/project6.jpeg";
+import Project7 from "../../images/projectImg/project7.jpeg";
+import Project8 from "../../images/projectImg/project9.jpeg";
 import "./Projects.css";
 
 export default function Projects() {
@@ -35,7 +44,7 @@ export default function Projects() {
               className="element-item brand web-design  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.1s"
             >
-              <img src="img/project1.jpeg" alt="" className="img-fluid" />
+              <img src={Project1} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -51,7 +60,7 @@ export default function Projects() {
               className="element-item ui-design logo-design  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.2s"
             >
-              <img src="img/project2.jpeg" alt="" className="img-fluid" />
+              <img src={Project2} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -67,7 +76,7 @@ export default function Projects() {
               className="element-item ui-design transition  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.3s"
             >
-              <img src="img/project3.jpeg" alt="" className="img-fluid" />
+              <img src={Project3} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -83,7 +92,7 @@ export default function Projects() {
               className="element-item web-design logo-design  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.4s"
             >
-              <img src="img/project4.jpeg" alt="" className="img-fluid" />
+              <img src={Project4} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -99,7 +108,8 @@ export default function Projects() {
               className="element-item ui-design  transition  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.5s"
             >
-              <img src="img/project5.jpeg" alt="" className="img-fluid" />
+              <img src={Project4} alt="" className="img-fluid" />
+
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -115,7 +125,7 @@ export default function Projects() {
               className="element-item brand web-design transition col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.6s"
             >
-              <img src="img/project6.jpeg" alt="" className="img-fluid" />
+              <img src={Project5} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -131,7 +141,7 @@ export default function Projects() {
               className="element-item web-design logo-design col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.7s"
             >
-              <img src="img/project7.jpeg" alt="" className="img-fluid" />
+              <img src={Project6} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -147,7 +157,7 @@ export default function Projects() {
               className="element-item ui-design  transition col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.8s"
             >
-              <img src="img/project8.jpeg" alt="" className="img-fluid" />
+              <img src={Project8} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
@@ -163,7 +173,7 @@ export default function Projects() {
               className="element-item ui-design logo-design col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.9s"
             >
-              <img src="img/project9.jpeg" alt="" className="img-fluid" />
+              <img src={Project1} alt="" className="img-fluid" />
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
