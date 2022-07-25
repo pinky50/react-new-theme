@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/react-new-theme/static/css/main.d03287dc.css",
-    "main.js": "/react-new-theme/static/js/main.f74084c0.js",
-    "index.html": "/react-new-theme/index.html",
-    "main.d03287dc.css.map": "/react-new-theme/static/css/main.d03287dc.css.map",
-    "main.f74084c0.js.map": "/react-new-theme/static/js/main.f74084c0.js.map"
+    "main.css": "/static/css/main.d03287dc.css",
+    "main.js": "/static/js/main.eafb393e.js",
+    "static/media/project1.jpeg": "/static/media/project1.8fe54836fc8b48454cfc.jpeg",
+    "static/media/project5.jpeg": "/static/media/project5.81da56a5788fe1ec9280.jpeg",
+    "static/media/project7.jpeg": "/static/media/project7.5cd068259b7b94bad381.jpeg",
+    "static/media/project2.jpeg": "/static/media/project2.7ceefd621cc4aa66cef1.jpeg",
+    "static/media/project4.jpeg": "/static/media/project4.d263faf17394a08af8d9.jpeg",
+    "static/media/project6.jpeg": "/static/media/project6.aa9a2fc2c153176b863d.jpeg",
+    "static/media/project3.jpeg": "/static/media/project3.ee88988b01f1a5167231.jpeg",
+    "static/media/project9.jpeg": "/static/media/project9.ee75f23baa66039e57f7.jpeg",
+    "static/media/shopping-online.png": "/static/media/shopping-online.bfe6559aa7ffda219aee.png",
+    "static/media/global.png": "/static/media/global.27f08f46a172514fffb4.png",
+    "static/media/bhcs.png": "/static/media/bhcs.70b880fd564c055ef513.png",
+    "static/media/banglatech.png": "/static/media/banglatech.6d29c01c1ecb0e4b3e36.png",
+    "index.html": "/index.html",
+    "main.d03287dc.css.map": "/static/css/main.d03287dc.css.map",
+    "main.eafb393e.js.map": "/static/js/main.eafb393e.js.map"
   },
   "entrypoints": [
     "static/css/main.d03287dc.css",
-    "static/js/main.f74084c0.js"
+    "static/js/main.eafb393e.js"
   ]
 }
