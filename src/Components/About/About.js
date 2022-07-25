@@ -3,8 +3,9 @@ import PageHeader from "../PageHeader/PageHeader";
 import Heading from "../Heading/Heading";
 import Team from "../Team/Team";
 import RoundBtn from "../RoundBtn/RoundBtn";
-
 import "./About.css";
+import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
+import AnyQuestion from "../AnyQuestion/AnyQuestion";
 
 export default function About({ link }) {
   return (
@@ -12,7 +13,7 @@ export default function About({ link }) {
       <PageHeader title="About Us" />
       <div className="container mt-5">
         <div className="row">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="about-left-img">
               <img
                 src="https://keenitsolutions.com/products/wordpress/bizup/wp-content/uploads/2021/07/about.jpg"
@@ -20,7 +21,7 @@ export default function About({ link }) {
               />
             </div>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="about-right-content">
               <h1 className="text-uppercase mt-5">Who We Are ?</h1>
               <h2>We help to implement your ideas into automation</h2>
@@ -42,6 +43,7 @@ export default function About({ link }) {
           </div>
         </div>
       </div>
+      <WhyChooseUs />
 
       <Heading content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti accusantium, aliquam laborum tempore molestias! ">
         <h1>
@@ -49,6 +51,7 @@ export default function About({ link }) {
         </h1>
       </Heading>
       <Team />
+      <AnyQuestion />
     </>
   );
 }

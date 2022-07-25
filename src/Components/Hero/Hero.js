@@ -26,12 +26,12 @@ function Hero() {
             <div className="row">
               <div className="col-md-5">
                 <div className="banner-left">
-                  <h1>We are a it company</h1>
+                  {/* <h1>We are a it company</h1> */}
                 </div>
               </div>
               <div className="col-md-7">
                 <div className="banner-right">
-                  <h2>Hello people</h2>
+                  {/* <h2>Hello people</h2> */}
                 </div>
               </div>
             </div>
@@ -42,12 +42,12 @@ function Hero() {
             <div className="row">
               <div className="col-md-5">
                 <div className="banner-left">
-                  <h1>We are a it company</h1>
+                  {/* <h1>We are a it company</h1> */}
                 </div>
               </div>
               <div className="col-md-7">
                 <div className="banner-right">
-                  <h2>Hello people</h2>
+                  {/* <h2>Hello people</h2> */}
                 </div>
               </div>
             </div>
@@ -58,12 +58,12 @@ function Hero() {
             <div className="row">
               <div className="col-md-5">
                 <div className="banner-left">
-                  <h1>We are a it company</h1>
+                  {/* <h1>We are a it company</h1> */}
                 </div>
               </div>
               <div className="col-md-7">
                 <div className="banner-right">
-                  <h2>Hello people</h2>
+                  {/* <h2>Hello people</h2> */}
                 </div>
               </div>
             </div>
@@ -74,12 +74,12 @@ function Hero() {
             <div className="row">
               <div className="col-md-5">
                 <div className="banner-left">
-                  <h1>We are a it company</h1>
+                  {/* <h1>We are a it company</h1> */}
                 </div>
               </div>
               <div className="col-md-7">
                 <div className="banner-right">
-                  <h2>Hello people</h2>
+                  {/* <h2>Hello people</h2> */}
                 </div>
               </div>
             </div>

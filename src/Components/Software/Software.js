@@ -10,7 +10,7 @@ export default function Software({ title, content, children }) {
       </div>
       <div className="software-content mb-1">{content}</div>
       <div className="view-details">
-        <a href="">View Details</a>
+        <a href="#!">View Details</a>
       </div>
     </div>
   );

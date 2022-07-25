@@ -13,25 +13,25 @@ export default function Team() {
                   src="https://ovatheme.com/meup/wp-content/uploads/2019/09/about_team_1-1.jpg"
                   alt="Vikas Makwana"
                 />
-                <ul class="social-s">
+                <ul className="social-s">
                   <li>
                     <a href="#">
-                      <i class="fa fa-facebook"></i>
+                      <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-linkedin"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-instagram"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-twitter"></i>
+                      <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                 </ul>
@@ -51,25 +51,25 @@ export default function Team() {
                   src="https://ovatheme.com/meup/wp-content/uploads/2019/09/about_team_2-1.jpg"
                   alt="Vikas Makwana"
                 />
-                <ul class="social-s">
+                <ul className="social-s">
                   <li>
                     <a href="#">
-                      <i class="fa fa-facebook"></i>
+                      <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-linkedin"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-instagram"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-twitter"></i>
+                      <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                 </ul>
@@ -89,25 +89,25 @@ export default function Team() {
                   src="https://ovatheme.com/meup/wp-content/uploads/2019/09/about_team_3-1.jpg"
                   alt="Vikas Makwana"
                 />
-                <ul class="social-s">
+                <ul className="social-s">
                   <li>
                     <a href="#">
-                      <i class="fa fa-facebook"></i>
+                      <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-linkedin"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-instagram"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-twitter"></i>
+                      <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                 </ul>
@@ -127,25 +127,25 @@ export default function Team() {
                   src="http://demo.oceanthemes.net/borrow/wp-content/uploads/2016/12/team1-1.jpg"
                   alt="Vikas Makwana"
                 />
-                <ul class="social-s">
+                <ul className="social-s">
                   <li>
                     <a href="#">
-                      <i class="fa fa-facebook"></i>
+                      <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-linkedin"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-instagram"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-twitter"></i>
+                      <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                 </ul>

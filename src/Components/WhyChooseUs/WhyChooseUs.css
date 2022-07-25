@@ -1,0 +1,23 @@
+.chooseuscontent-wrapper h1{
+    color: #57C0E7;
+}
+.chooseicon {
+    float: left;
+    font-size: 20px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    color: #28a6d4;
+    background-color: #b7dfed;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.chooseuscontent h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.chooseuscontent h4, .chooseuscontent p {
+    margin-left: 65px;
+}

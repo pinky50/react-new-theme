@@ -50,6 +50,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -66,6 +67,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -82,6 +84,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -98,6 +101,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -108,13 +112,14 @@ export default function Projects() {
               className="element-item ui-design  transition  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.5s"
             >
-              <img src={Project4} alt="" className="img-fluid" />
+              <img src={Project7} alt="" className="img-fluid" />
 
               <div className="portfolio-overlay">
                 <a
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -131,6 +136,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -147,6 +153,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -163,6 +170,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
@@ -179,6 +187,7 @@ export default function Projects() {
                   href="https://noboit.com/"
                   className="overlay-content"
                   target="_blank"
+                  rel="noreferrer"
                   data-gallery="example-gallery"
                 >
                   live demo
