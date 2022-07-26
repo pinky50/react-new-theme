@@ -118,7 +118,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="container-fluid" style={{ padding: "0px" }}>
-          <div className="col-md-12 mt-3">
+          <div className="col-md-12 mt-5">
             <div className="contact-map">
               <iframe
                 title="my address tracker"

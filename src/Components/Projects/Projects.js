@@ -41,7 +41,7 @@ export default function Projects() {
         <div className="grid">
           <div className="row">
             <div
-              className="element-item brand web-design  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item brand web-design  col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.1s"
             >
               <img src={Project1} alt="" className="img-fluid" />
@@ -58,7 +58,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item ui-design logo-design  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item ui-design logo-design  col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.2s"
             >
               <img src={Project2} alt="" className="img-fluid" />
@@ -75,7 +75,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item ui-design transition  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item ui-design transition  col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.3s"
             >
               <img src={Project3} alt="" className="img-fluid" />
@@ -92,7 +92,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item web-design logo-design  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item web-design logo-design  col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.4s"
             >
               <img src={Project4} alt="" className="img-fluid" />
@@ -109,7 +109,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item ui-design  transition  col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item ui-design  transition  col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.5s"
             >
               <img src={Project7} alt="" className="img-fluid" />
@@ -127,7 +127,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item brand web-design transition col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item brand web-design transition col-12 col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.6s"
             >
               <img src={Project5} alt="" className="img-fluid" />
@@ -144,7 +144,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item web-design logo-design col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item web-design logo-design col-12 col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.7s"
             >
               <img src={Project6} alt="" className="img-fluid" />
@@ -161,7 +161,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item ui-design  transition col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item ui-design  transition col-12 col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.8s"
             >
               <img src={Project8} alt="" className="img-fluid" />
@@ -178,7 +178,7 @@ export default function Projects() {
               </div>
             </div>
             <div
-              className="element-item ui-design logo-design col-12 col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="element-item ui-design logo-design col-12 col-lg-6 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.9s"
             >
               <img src={Project1} alt="" className="img-fluid" />

@@ -24,6 +24,9 @@
     border: 1px solid #57C0E7;
     box-shadow: none;
 }
+.contact-form .form-control:hover{
+    border-bottom: 1px solid #57C0E7;
+}
 
 .form-control::placeholder {
     font-size: 12px;

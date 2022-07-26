@@ -21,15 +21,18 @@ export default function Home() {
         </h1>
       </Heading>
       <Projects />
+      <div className="pt-4 pb-5 mt-4" style={{ backgroundColor: "#F2F6F7" }}>
+        <Heading content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti accusantium, aliquam laborum tempore molestias! ">
+          <h1>
+            Our <span>Softwares</span>
+          </h1>
+        </Heading>
+        <Softwares />
+      </div>
+
       <Heading content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti accusantium, aliquam laborum tempore molestias! ">
         <h1>
-          Our <span>Softwares</span>
-        </h1>
-      </Heading>
-      <Softwares />
-      <Heading content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti accusantium, aliquam laborum tempore molestias! ">
-        <h1>
-          Our<span> Team</span>
+          Meet<span> our Team</span>
         </h1>
       </Heading>
       <Team />

@@ -4,7 +4,7 @@ import "./Software.css";
 export default function Software({ title, content, children }) {
   return (
     <div className="software-wrapper">
-      <div className="software-icon mb-3">{children}</div>
+      <div className="software-icon mb-3 mt-2">{children}</div>
       <div className="software-title">
         <h4> {title}</h4>
       </div>
