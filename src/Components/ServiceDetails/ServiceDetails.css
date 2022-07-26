@@ -1,0 +1,117 @@
+/*services details page start here*/
+.special-links ul {
+    padding: 0;
+}
+.special-links li {
+    list-style: none;
+}
+
+.special-links li a {
+    background: #f9f9f9;
+    color: #323232;
+    border: 1px solid rgb(197, 192, 192);
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 50px;
+    padding: 0 20px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.special-links li a:hover {
+    background: #009CCE;
+    color: #fff;
+
+}
+
+.special-links li a.active {
+    background: #009CCE;
+    color: #fff!important;
+}
+
+.service-banner {
+    background-image: linear-gradient(rgba(24,33,46,.75),rgba(24,33,46,.75)),url('https://images.unsplash.com/photo-1519834785169-98be25ec3f84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.service-banner span {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.service-banner h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 35px;
+}
+
+/*services details page end here*/
+
+/*faq page start here*/
+.panel-title > a:before {
+    font-family: FontAwesome;
+    content: "\f058";
+    margin-top: 4px;
+    padding: 5px;
+    margin-right: 20px;
+    float: right;
+    color: #79c479;
+}
+
+.panel-title > a {
+    color: grey !important;
+    font-size: 18px;
+    border-left: 2px solid #79c479;
+    padding-left: 10px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+    .panel-title > a {
+        font-size: 15px;
+    }
+}
+
+.panel-title > a.collapsed:before {
+    content: "\f05d";
+    margin-right: 20px;
+    color: #79c479;
+    margin-top: 4px;
+}
+
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus {
+    text-decoration: none;
+    color: #303030 !important;
+}
+
+.panel-heading {
+    border: 1px solid #79c479;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.panel-body {
+    padding: 30px;
+    border: 1px solid #79c479;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/*faq page end here*/

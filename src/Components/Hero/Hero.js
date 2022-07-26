@@ -16,7 +16,7 @@ function Hero() {
         }}
         style={{
           "--swiper-navigation-color": "#ccc",
-          "--swiper-pagination-color": "#57C0E7",
+          "--swiper-pagination-color": "#009CCE",
         }}
         navigation
         pagination={{ clickable: true }}

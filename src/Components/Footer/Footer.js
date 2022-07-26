@@ -22,12 +22,16 @@ export default function Footer() {
                     />
                   </Link>
                 </div>
-                <div className="footer-widget-content pb-4 pt-4">
+                <div className="footer-widget-content pb-2 pt-2">
                   US IT is a growing up software company in Bangladesh. We
                   provide domain registration, hosting, web application and
                   digital marketing services.
                 </div>
                 {/* <Social/> */}
+                <div className="subscribe-area">
+                  <input type="email" placeholder="Enter your email" />
+                  <button>Go</button>
+                </div>
               </div>
               <div className="col-lg-2 col-md-6">
                 <div className="quick-links ">

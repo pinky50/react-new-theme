@@ -6,7 +6,7 @@
 }
 
 .footer-widget-logo img{
-    width: 100px;
+    width: 60px;
     margin-top: 20px;
 }
 
@@ -25,7 +25,7 @@
     display: block;
     width: 50px;
     height: 2px;
-    background: #57C0E7;
+    background: #009CCE;
     margin-top: 12px;
     text-align: center;
 }
@@ -44,11 +44,11 @@
     transition: all .5s ease;
 }
 .quick-links ul li a i{
-    color:#57C0E7;
+    color:#009CCE;
     margin-right: 5px;
 }
 .quick-links ul li a:hover{
-    color: #57C0E7;
+    color: #009CCE;
     margin-left: 5px;
 }
 
@@ -58,7 +58,7 @@
     color: #fff;
 }
 .contact li  i{
-    color: #57C0E7;
+    color: #009CCE;
     margin-right: 5px;
 }
 .widget-header-items{
@@ -76,7 +76,7 @@
     color: #fff;
 }
 .news-info .text a:hover{
-    color: #57C0E7;
+    color: #009CCE;
 }
 .news-info .time{
     font-size: 12px;
@@ -95,7 +95,7 @@
 
 .footer-icons a{
     margin-right: 7px;
-    color: #57C0E7!important;
+    color: #009CCE!important;
     text-align: center;
     font-size: 20px;
     background: #252525;
@@ -116,7 +116,7 @@
     top: 0;
     left: 0;
     transform: scale(.9);
-    box-shadow: 0 0 0 2px #57C0E7;
+    box-shadow: 0 0 0 2px #009CCE;
     opacity: 0;
     -webkit-animation: sonarEffect 1.3s infinite 75ms;
     -moz-animation: sonarEffect 1.3s ease-out 75ms;
@@ -129,16 +129,40 @@
     }
     40% {
         opacity: 0.5;
-        box-shadow: 0 0 0 2px rgba(255,87, 59,0.1), 0 0 10px 10px #57C0E7, 0 0 0 10px #57C0E7;
+        box-shadow: 0 0 0 2px rgba(255,87, 59,0.1), 0 0 10px 10px #009CCE, 0 0 0 10px #009CCE;
     }
     100% {
-        box-shadow: 0 0 0 2px rgba(255,87, 59,0.1), 0 0 10px 10px #57C0E7, 0 0 0 10px #57C0E7;
+        box-shadow: 0 0 0 2px rgba(255,87, 59,0.1), 0 0 10px 10px #009CCE, 0 0 0 10px #009CCE;
         -moz-transform: scale(1.5);
         opacity: 0;
     }
 }
 
 .footer span{
-    color: #57C0E7;
+    color: #009CCE;
 }
 /*footer end here*/
+
+.subscribe-area input {
+    border: none;
+    padding: 10px;
+    border-radius: 2px 0 0 2px;
+    margin-right: -10px;
+    width: 70%;
+}
+
+.subscribe-area button {
+    border: none;
+    border-radius: 0 2px 2px 0;
+    padding: 10px;
+    background: #009CCE;
+    color: #000;
+    font-weight: bold;
+    width: 30%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.subscribe-area input:focus {
+    outline: none;
+}

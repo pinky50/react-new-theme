@@ -20,7 +20,8 @@
 
 .software-wrapper:hover{
     box-shadow: 0 12px 20px rgb(0 0 0 / 15%);
-    border-bottom: 3px solid #57C0E7;
+    border-bottom: 3px solid #009CCE;
+    transform: translate(0, -5px);
 }
 .software-wrapper:hover .software-icon i{
     border-radius: 30px 1px;
@@ -28,9 +29,9 @@
 }
 .view-details a{
     text-decoration: none;
-    color: #57C0E7;
+    color: #009CCE;
     font-size: 18px;
 }
 .view-details a:hover{
-    color: #57C0E7;
+    color: #009CCE;
 }

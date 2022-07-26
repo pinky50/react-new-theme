@@ -8,9 +8,9 @@
     /* box-shadow: 1px 1px 1px #ccc; */
 }
 .service-wrapper:hover {
-    border: 1px solid #57C0E7;
+    border: 1px solid #009CCE;
     transform: translate(0, -5px);
-    /* background: #57C0E7; */
+    /* background: #009CCE; */
 }
 
 .service-icon i{

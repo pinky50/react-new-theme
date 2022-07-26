@@ -21,11 +21,11 @@
 
 /* .contact-form .form-control:hover, */
 .contact-form .form-control:focus {
-    border: 1px solid #57C0E7;
+    border: 1px solid #009CCE;
     box-shadow: none;
 }
 .contact-form .form-control:hover{
-    border-bottom: 1px solid #57C0E7;
+    border-bottom: 1px solid #009CCE;
 }
 
 .form-control::placeholder {
@@ -51,11 +51,11 @@
 }
 
 /* .contact-info:hover {
-    border:1px solid #57C0E7;
+    border:1px solid #009CCE;
 } */
 .contact-icon {
     font-size: 30px;
-    color: #57C0E7;
+    color: #009CCE;
 }
 
 .contact-info a {

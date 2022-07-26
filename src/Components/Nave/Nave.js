@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink, Link } from "react-router-dom";
 import "./Nave.css";
 
-function Nave() {
+function Nave({ activeclassname }) {
   return (
     <Navbar collapseOnSelect expand="lg" className="navbar-toggler nav-fixed">
       <Container>
@@ -19,7 +19,7 @@ function Nave() {
             <li className="nav-item">
               <NavLink
                 to="/"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-items nav-link"
               >
                 Home
@@ -28,7 +28,7 @@ function Nave() {
             <li className="nav-item mr-5">
               <NavLink
                 to="/about"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-items nav-link "
               >
                 About Us
@@ -44,7 +44,7 @@ function Nave() {
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                activeClassName="active"
+                activeclassname="active"
               >
                 Services
               </NavLink>
@@ -83,7 +83,7 @@ function Nave() {
             <li className="nav-item">
               <NavLink
                 to="/portfolio"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-items nav-link"
               >
                 Portfolio
@@ -92,7 +92,7 @@ function Nave() {
             <li className="nav-item">
               <NavLink
                 to="/contact"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-items nav-link"
               >
                 Contact

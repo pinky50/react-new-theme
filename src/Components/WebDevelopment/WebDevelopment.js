@@ -1,10 +1,13 @@
-import React from 'react';
-import "./WebDevelopment.css"
+import React from "react";
+import ServiceDetails from "../ServiceDetails/ServiceDetails";
+import PageHeader from "../PageHeader/PageHeader";
+import "./WebDevelopment.css";
 
 export default function WebDevelopment() {
   return (
-    <center>
-      <h1>I am Web Development Page...</h1>
-    </center>
-  )
+    <>
+      <PageHeader title="Web Development" />
+      <ServiceDetails />
+    </>
+  );
 }
