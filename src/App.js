@@ -11,15 +11,14 @@ import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
 import WebDevelopment from "./Components/WebDevelopment/WebDevelopment";
 import SoftwareDevelopment from "./Components/SoftwareDevelopment/SoftwareDevelopment";
-// import Preloader from "./Components/Preloader/Preloader";
+import Navigation from "./Components/Navigation/Navigation";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Preloader /> */}
         <TopBar />
-        <Nave />
+        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />

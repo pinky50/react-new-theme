@@ -55,14 +55,21 @@
     border: none;
     display: none;
     margin-top: 0;
+    width: 250px;
+    border-top: 2px solid #009cce;
     padding-top: 0;
     padding-bottom: 0;
+    background-clip:none;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -ms-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
 
+}
+
+.dropdown-menu li a{
+    padding: 10px;
 }
 
 .dropdown:hover > .dropdown-menu {

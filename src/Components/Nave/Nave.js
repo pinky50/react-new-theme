@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink, Link } from "react-router-dom";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Nave.css";
 
 function Nave({ activeclassname }) {
@@ -34,7 +35,29 @@ function Nave({ activeclassname }) {
                 About Us
               </NavLink>
             </li>
-            <li className="nav-item dropdown">
+            <NavDropdown
+              title="Services"
+              id="basic-nav-dropdown"
+              className="teacher"
+              href=""
+            >
+              <div className="student">
+                <NavDropdown.Item href="services/webdevelopment">
+                  Web Development
+                </NavDropdown.Item>
+                <NavDropdown.Item href="services/softwaredevelopment">
+                  Software Development
+                </NavDropdown.Item>
+                <NavDropdown.Item href="services/webdevelopment">
+                  Ios Development
+                </NavDropdown.Item>
+                <NavDropdown.Item href="services/webdevelopment">
+                  Web Design
+                </NavDropdown.Item>
+              </div>
+            </NavDropdown>
+
+            <li className="nav-item dropdown ">
               <NavLink
                 to="/services"
                 className="nav-link dropdown-toggle nav-items"
@@ -48,7 +71,7 @@ function Nave({ activeclassname }) {
               >
                 Services
               </NavLink>
-              <ul className="dropdown-menu animate__animated animate__fadeIn ">
+              <ul className="dropdown-menu">
                 <li>
                   <Link to="services/webdevelopment" className="dropdown-item">
                     Web Development
