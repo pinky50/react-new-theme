@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-new-theme/static/css/main.2e793393.css",
-    "main.js": "/react-new-theme/static/js/main.b14e8cf1.js",
+    "main.css": "/react-new-theme/static/css/main.539bbbcc.css",
+    "main.js": "/react-new-theme/static/js/main.507a10ad.js",
     "static/media/project1.jpeg": "/react-new-theme/static/media/project1.8fe54836fc8b48454cfc.jpeg",
     "static/media/project5.jpeg": "/react-new-theme/static/media/project5.81da56a5788fe1ec9280.jpeg",
     "static/media/project7.jpeg": "/react-new-theme/static/media/project7.5cd068259b7b94bad381.jpeg",
@@ -15,11 +15,11 @@
     "static/media/bhcs.png": "/react-new-theme/static/media/bhcs.70b880fd564c055ef513.png",
     "static/media/banglatech.png": "/react-new-theme/static/media/banglatech.6d29c01c1ecb0e4b3e36.png",
     "index.html": "/react-new-theme/index.html",
-    "main.2e793393.css.map": "/react-new-theme/static/css/main.2e793393.css.map",
-    "main.b14e8cf1.js.map": "/react-new-theme/static/js/main.b14e8cf1.js.map"
+    "main.539bbbcc.css.map": "/react-new-theme/static/css/main.539bbbcc.css.map",
+    "main.507a10ad.js.map": "/react-new-theme/static/js/main.507a10ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e793393.css",
-    "static/js/main.b14e8cf1.js"
+    "static/css/main.539bbbcc.css",
+    "static/js/main.507a10ad.js"
   ]
 }
