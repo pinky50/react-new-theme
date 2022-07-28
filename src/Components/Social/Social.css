@@ -5,6 +5,10 @@ ul.social-network li {
     display: inline;
     margin: 0 5px;
 }
+ul.social-network li:hover ul.social-network li a{
+    /* transform: rotate(360deg); */
+    font-size: 10px;
+}
 
 @media only screen and (max-width: 390px) {
     ul.social-network li {
@@ -25,11 +29,11 @@ ul.social-network li {
     font-size: 15px;
     color: #ffffff;
     line-height: 30px;
+    transition: all 0.5s;
 }
-.social-circle li:hover .social-circle li a i {
-    font-size: 18px;
+.social-circle li a:hover{
+    transform: scale(1.2);
 }
-
 
 .social-network a.icoFacebook {
     background-color: #3B5998;

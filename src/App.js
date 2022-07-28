@@ -5,13 +5,13 @@ import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import TopBar from "./Components/TopBar/TopBar";
-import Nave from "./Components/Nave/Nave";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
 import WebDevelopment from "./Components/WebDevelopment/WebDevelopment";
 import SoftwareDevelopment from "./Components/SoftwareDevelopment/SoftwareDevelopment";
 import Navigation from "./Components/Navigation/Navigation";
+import PageNotFound from "./Components/PageNotFound/PageNotFound";
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
           />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>

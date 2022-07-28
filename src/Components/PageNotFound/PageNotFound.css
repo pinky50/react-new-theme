@@ -1,0 +1,17 @@
+.pagenotfound{
+    /* background-color: lightblue; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("https://images.unsplash.com/uploads/1411068785961ec3bb1a3/4662610e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    padding: 130px 0;
+    margin-top: 89px;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.pagenotfound h1{
+    color: #fff;
+    font-weight: bold;
+}
+.pagenotfound h1 span{
+    color:#07A8FF;
+}
