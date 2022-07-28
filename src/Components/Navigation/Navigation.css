@@ -77,6 +77,7 @@ li {
   width: 100%;
   float: left;
   position: relative;
+  background-color: #fff;
 }
 .header__middle__logo > a > h1 {
   color: #07a8ff;
@@ -128,6 +129,15 @@ li {
     display: block;
     z-index: 1000000;
   }
+}
+
+.servicearraw::after{
+  content: '\f107'!important;
+    font-family: FontAwesome;
+    border-top: 0!important;
+    margin-left: 0;
+    vertical-align: 0!important;
+    border-left: 0;
 }
 .menu-item .sub__menus  a {
   padding: 7px 0 0px 0;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
+import { FiAlignRight, FiXCircle } from "react-icons/fi";
 import logo from "../../img/logo.png";
 import "./Navigation.css";
 
@@ -97,9 +97,9 @@ const Navbarmenu = () => {
                   className="menu-item sub__menus__arrows"
                 >
                   {" "}
-                  <Link to="#">
+                  <Link to="#" className="servicearraw">
                     {" "}
-                    Services <FiChevronDown />{" "}
+                    Services{" "}
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>
                     <li>

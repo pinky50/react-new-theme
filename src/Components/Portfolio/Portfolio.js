@@ -1,7 +1,7 @@
 import React from "react";
 import PageHeader from "../PageHeader/PageHeader";
 import Heading from "../Heading/Heading";
-import Projects from "../Projects/Projects";
+import PortfolioGallery from "../PortfolioGallery/PortfolioGallery";
 
 export default function h1() {
   return (
@@ -12,7 +12,8 @@ export default function h1() {
           our<span> latest works</span>
         </h1>
       </Heading>
-      <Projects />
+      {/* <Projects /> */}
+      <PortfolioGallery />
     </center>
   );
 }
