@@ -3,7 +3,7 @@ import PageHeader from "../PageHeader/PageHeader";
 import Heading from "../Heading/Heading";
 import PortfolioGallery from "../PortfolioGallery/PortfolioGallery";
 
-export default function h1() {
+export default function Portfolio() {
   return (
     <center>
       <PageHeader title="Portfolio" />
