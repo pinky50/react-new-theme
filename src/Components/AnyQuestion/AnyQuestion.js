@@ -8,14 +8,14 @@ export default function AnyQuestion() {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-12 col-sm-12">
-            <div class="any-question-left">
+            <div className="any-question-left">
               <h3>Do You Have Questions ?</h3>
               <span>We'll help you to grow your career and growth.</span>
             </div>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="any-question-right">
-              <Link to="/contact" class="ques-btn">
+              <Link to="/contact" className="ques-btn">
                 Contact Us Today
               </Link>
             </div>

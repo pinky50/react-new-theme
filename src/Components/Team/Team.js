@@ -5,7 +5,7 @@ export default function Team() {
   return (
     <>
       <div className="container">
-        <div class="row">
+        <div className="row">
           <div className="col-md-3 col-sm-12">
             <div className="team-wrapper text-center">
               <div className="team-img">
@@ -15,22 +15,22 @@ export default function Team() {
                 />
                 <ul className="social-s">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
@@ -53,22 +53,22 @@ export default function Team() {
                 />
                 <ul className="social-s">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
@@ -91,22 +91,22 @@ export default function Team() {
                 />
                 <ul className="social-s">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
@@ -129,22 +129,22 @@ export default function Team() {
                 />
                 <ul className="social-s">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>

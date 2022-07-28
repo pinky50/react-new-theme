@@ -39,7 +39,7 @@ function Nave({ activeclassname }) {
               title="Services"
               id="basic-nav-dropdown"
               className="teacher"
-              href=""
+              href="/"
             >
               <div className="student">
                 <NavDropdown.Item href="services/webdevelopment">
@@ -61,7 +61,7 @@ function Nave({ activeclassname }) {
               <NavLink
                 to="/services"
                 className="nav-link dropdown-toggle nav-items"
-                href="#"
+                href="/"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"

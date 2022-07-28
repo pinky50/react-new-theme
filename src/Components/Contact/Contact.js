@@ -41,7 +41,7 @@ export default function Contact() {
                       />
                     </div>
                   </div>
-                  <div class="row">
+                  <div className="row">
                     <div className="col-sm-12 mb-3">
                       <input
                         type="text"

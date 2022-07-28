@@ -1,10 +1,7 @@
-import React, { useState } from "react";
 import RoundBtn from "../RoundBtn/RoundBtn";
-import Collapse from "react-bootstrap/Collapse";
 import "./ServiceDetails.css";
 
 export default function ServiceDetails() {
-  const [open, setOpen] = useState(false);
   return (
     <div className="container mt-5">
       <div className="row">
@@ -36,7 +33,7 @@ export default function ServiceDetails() {
               </ul>
             </div>
           </div>
-          <div class="service-widget service-banner">
+          <div className="service-widget service-banner">
             <span>Offer Banner</span>
             <h3>Do You Have a Project In Your Mind </h3>
             <RoundBtn content="Get Started" />
