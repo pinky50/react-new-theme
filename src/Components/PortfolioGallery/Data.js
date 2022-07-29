@@ -1,4 +1,12 @@
 import image1 from "../../images/projectImg/project1.jpeg";
+import image2 from "../../images/projectImg/project2.jpeg";
+import image3 from "../../images/projectImg/project3.jpeg";
+import image4 from "../../images/projectImg/project4.jpeg";
+import image5 from "../../images/projectImg/project5.jpeg";
+import image6 from "../../images/projectImg/project6.jpeg";
+import image7 from "../../images/projectImg/project7.jpeg";
+import image8 from "../../images/projectImg/project9.jpeg";
+
 const data = [
   {
     id: 1,
@@ -10,7 +18,7 @@ const data = [
   },
   {
     id: 2,
-    image: "./images/project2.jpeg",
+    image: image2,
     title: "CSS Tutorial",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -18,7 +26,7 @@ const data = [
   },
   {
     id: 3,
-    image: "./images/project3.jpeg",
+    image: image3,
     title: "JS Tutorial",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -26,7 +34,7 @@ const data = [
   },
   {
     id: 4,
-    image: "./images/project4.jpeg",
+    image: image4,
     title: "React Js Tutorial",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -34,7 +42,7 @@ const data = [
   },
   {
     id: 5,
-    image: "./images/project5.jpeg",
+    image: image5,
     title: "Bootstrap Tutorial",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -42,7 +50,7 @@ const data = [
   },
   {
     id: 6,
-    image: "./images/project6.jpeg",
+    image: image6,
     title: "PHP Tutorial",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -50,7 +58,7 @@ const data = [
   },
   {
     id: 7,
-    image: "./images/project7.jpeg",
+    image: image7,
     title: "Node.js Tutorial",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -58,7 +66,7 @@ const data = [
   },
   {
     id: 8,
-    image: "./images/project9.jpeg",
+    image: image8,
     title: "ASP Tutorial",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",

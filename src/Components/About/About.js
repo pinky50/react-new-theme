@@ -16,14 +16,15 @@ export default function About({ link }) {
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="about-left-img">
               <img
-                src="https://keenitsolutions.com/products/wordpress/bizup/wp-content/uploads/2021/07/about.jpg"
-                alt=""
+                src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                alt="about-img"
+                className="img-fluid"
               />
             </div>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12">
-            <div className="about-right-content">
-              <h1 className="text-uppercase mt-5">Who We Are ?</h1>
+            <div className="about-right-content ml-4">
+              <h1 className="text-uppercase">Who We Are ?</h1>
               <h2>We help to implement your ideas into automation</h2>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non

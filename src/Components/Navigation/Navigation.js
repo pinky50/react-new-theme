@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FiAlignRight, FiXCircle } from "react-icons/fi";
-import logo from "../../img/logo.png";
+import logo from "../../images/logo.png";
 import "./Navigation.css";
 
 const Navbarmenu = () => {
@@ -130,7 +130,17 @@ const Navbarmenu = () => {
                         to={`/Offline`}
                       >
                         {" "}
-                        Software Development{" "}
+                        Graphic Design{" "}
+                      </NavLink>{" "}
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={toggleClass}
+                        activeclassname="is-active"
+                        to={`/Offline`}
+                      >
+                        {" "}
+                        Digital Marketing{" "}
                       </NavLink>{" "}
                     </li>
                   </ul>

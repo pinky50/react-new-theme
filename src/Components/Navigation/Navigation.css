@@ -43,11 +43,11 @@ li {
 }
 .menu-item a {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 40px;
   position: relative;
   display: block;
-  color: #545050;
+  color: #191919 ;
   margin: 27px 17px;
   text-decoration: none;
   cursor: pointer;
@@ -78,6 +78,7 @@ li {
   float: left;
   position: relative;
   background-color: #fff;
+  height: 85px;
 }
 .header__middle__logo > a > h1 {
   color: #07a8ff;
@@ -109,7 +110,7 @@ li {
   display: none;
   background: white;
   border: 1px solid lavender;
-  width: 227px;
+  width: 245px;
   left: -17px;
   padding: 2px 0 0 0;
   z-index: 1000;

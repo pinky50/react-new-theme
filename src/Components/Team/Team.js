@@ -12,6 +12,7 @@ export default function Team() {
                 <img
                   src="https://ovatheme.com/meup/wp-content/uploads/2019/09/about_team_1-1.jpg"
                   alt="Vikas Makwana"
+                  className="img-fluid"
                 />
                 <ul className="social-s">
                   <li>

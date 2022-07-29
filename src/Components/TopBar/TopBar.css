@@ -2,7 +2,7 @@
     width: 100%;
     display: block;
     background: #021D3A;
-    height: 50px;
+    /* height: 50px; */
 }
 .helpline {
     font-size: 14px;
@@ -19,22 +19,22 @@
     color: #009CCE;
     margin-right: 7px;
 }
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
     .helpline a {
        font-size: 10px;
     }
-  }
+  } */
 
 .helpline a:hover{
     color:#ffffff;
 }
 
 
-ul.social-network {
-    list-style: none;
-    display: block;
-    padding: 0;
-    text-align: right;
-    margin-top: 8px;
-}
+
+
+@media only screen and (max-width: 767px) {
+    .helpline{
+        text-align: center;
+    }
+  }
 

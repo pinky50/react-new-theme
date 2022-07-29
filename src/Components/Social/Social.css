@@ -1,6 +1,6 @@
-/* .social{
-    line-height: 50px;
-} */
+ul.social-network{
+    text-align: right;
+}
 ul.social-network li {
     display: inline;
     margin: 0 5px;
@@ -10,11 +10,13 @@ ul.social-network li:hover ul.social-network li a{
     font-size: 10px;
 }
 
-@media only screen and (max-width: 390px) {
-    ul.social-network li {
-        margin: 0 1px;
-    }
-  }
+ul.social-network {
+    list-style: none;
+    display: block;
+    padding: 0;
+    text-align: right;
+    margin-top: 8px;
+}
 
 .social-circle li a {
     display: inline-block;
@@ -47,3 +49,11 @@ ul.social-network li:hover ul.social-network li a{
 .social-network a.icoYoutube {
     background-color: #FF0100;
 }
+
+
+@media only screen and (max-width: 767px) {
+    ul.social-network{
+        text-align: center;
+        margin-top: 0;
+    }
+  }

@@ -4,7 +4,7 @@ import "./Social.css";
 export default function Social() {
   return (
     <div className="social">
-      <ul className=" social-network social-circle text-right">
+      <ul className=" social-network social-circle">
         <li>
           <a
             target="_blank"

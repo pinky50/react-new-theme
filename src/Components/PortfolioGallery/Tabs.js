@@ -3,7 +3,7 @@ import React from "react";
 export default function Tabs({ filterCategory, tabsData }) {
   return (
     <div>
-      <div className="text-center my-4">
+      <div className="text-center mb-4">
         {tabsData.map((category, index) => {
           return (
             <button
