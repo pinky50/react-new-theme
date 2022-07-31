@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/react-new-theme/static/css/main.539bbbcc.css",
-    "main.js": "/react-new-theme/static/js/main.fb345042.js",
-    "static/media/project1.jpeg": "/react-new-theme/static/media/project1.8fe54836fc8b48454cfc.jpeg",
-    "static/media/project5.jpeg": "/react-new-theme/static/media/project5.81da56a5788fe1ec9280.jpeg",
-    "static/media/project7.jpeg": "/react-new-theme/static/media/project7.5cd068259b7b94bad381.jpeg",
-    "static/media/project2.jpeg": "/react-new-theme/static/media/project2.7ceefd621cc4aa66cef1.jpeg",
-    "static/media/project4.jpeg": "/react-new-theme/static/media/project4.d263faf17394a08af8d9.jpeg",
-    "static/media/project6.jpeg": "/react-new-theme/static/media/project6.aa9a2fc2c153176b863d.jpeg",
-    "static/media/project3.jpeg": "/react-new-theme/static/media/project3.ee88988b01f1a5167231.jpeg",
-    "static/media/project9.jpeg": "/react-new-theme/static/media/project9.ee75f23baa66039e57f7.jpeg",
-    "static/media/shopping-online.png": "/react-new-theme/static/media/shopping-online.bfe6559aa7ffda219aee.png",
-    "static/media/global.png": "/react-new-theme/static/media/global.27f08f46a172514fffb4.png",
-    "static/media/bhcs.png": "/react-new-theme/static/media/bhcs.70b880fd564c055ef513.png",
-    "static/media/banglatech.png": "/react-new-theme/static/media/banglatech.6d29c01c1ecb0e4b3e36.png",
-    "index.html": "/react-new-theme/index.html",
-    "main.539bbbcc.css.map": "/react-new-theme/static/css/main.539bbbcc.css.map",
-    "main.fb345042.js.map": "/react-new-theme/static/js/main.fb345042.js.map"
+    "main.css": "/static/css/main.f3667f90.css",
+    "main.js": "/static/js/main.8fb3d18f.js",
+    "static/media/project1.jpeg": "/static/media/project1.8fe54836fc8b48454cfc.jpeg",
+    "static/media/project5.jpeg": "/static/media/project5.81da56a5788fe1ec9280.jpeg",
+    "static/media/project2.jpeg": "/static/media/project2.7ceefd621cc4aa66cef1.jpeg",
+    "static/media/project4.jpeg": "/static/media/project4.d263faf17394a08af8d9.jpeg",
+    "static/media/project6.jpeg": "/static/media/project6.aa9a2fc2c153176b863d.jpeg",
+    "static/media/project3.jpeg": "/static/media/project3.ee88988b01f1a5167231.jpeg",
+    "static/media/shopping-online.png": "/static/media/shopping-online.bfe6559aa7ffda219aee.png",
+    "static/media/global.png": "/static/media/global.27f08f46a172514fffb4.png",
+    "static/media/bhcs.png": "/static/media/bhcs.70b880fd564c055ef513.png",
+    "static/media/banglatech.png": "/static/media/banglatech.6d29c01c1ecb0e4b3e36.png",
+    "index.html": "/index.html",
+    "main.f3667f90.css.map": "/static/css/main.f3667f90.css.map",
+    "main.8fb3d18f.js.map": "/static/js/main.8fb3d18f.js.map"
   },
   "entrypoints": [
-    "static/css/main.539bbbcc.css",
-    "static/js/main.fb345042.js"
+    "static/css/main.f3667f90.css",
+    "static/js/main.8fb3d18f.js"
   ]
 }
