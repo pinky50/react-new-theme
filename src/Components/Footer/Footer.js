@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="footer-widget">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6 mb-3">
+            <div className="col-lg-4 col-md-6">
               <div className="footer-widget-logo">
                 <Link to="/">
                   <img
@@ -24,9 +24,35 @@ export default function Footer() {
                 marketing services.
               </div>
               {/* <Social/> */}
-              <div className="subscribe-area">
-                <input type="email" placeholder="Enter your email" />
-                <button>Go</button>
+              <div className="footer-icons mt-2">
+                <a
+                  className="facebook"
+                  title="facebook"
+                  href="https://www.facebook.com/"
+                >
+                  <i className="fa fa-facebook" />
+                </a>
+                <a
+                  className="gplus"
+                  title="linkedin"
+                  href="https://www.linkedin.com/"
+                >
+                  <i className="fa fa-linkedin" />
+                </a>
+                <a
+                  className="twitter"
+                  title="twitter"
+                  href="https://twitter.com/"
+                >
+                  <i className="fa fa-twitter" />
+                </a>
+                <a
+                  className="github"
+                  title="youtube"
+                  href="https://www.youtube.com/"
+                >
+                  <i className="fa fa-youtube-play" />
+                </a>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
@@ -35,37 +61,25 @@ export default function Footer() {
                 <ul className="mt-4" style={{ paddingLeft: "0px" }}>
                   <li className="mb-3">
                     <Link to="about">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
                       About
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link to="portfolio">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
                       Portfolio
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link to="services">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
                       Services
                     </Link>
                   </li>
                   <li>
                     <Link to="contact">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
                       Contact
                     </Link>
                   </li>
@@ -73,43 +87,31 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="latest-news quick-links mb-4 ">
+              <div className="latest-news quick-links ">
                 <span>SERVICES</span>
                 <ul className="mt-4" style={{ paddingLeft: "0px" }}>
                   <li className="mb-3">
                     <Link to="services/webdevelopment">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />{" "}
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
                       Web Development
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link to="services/softwaredevelopment">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />{" "}
-                      Web Development
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+                      Software Development
                     </Link>
                   </li>
                   <li className="mb-3">
-                    <Link to="services/webdevelopment">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />{" "}
-                      Web Development
+                    <Link to="services/graphicdesign">
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+                      Graphic Design
                     </Link>
                   </li>
                   <li>
-                    <Link to="services/webdevelopment">
-                      <i
-                        className="fa fa-angle-double-right"
-                        aria-hidden="true"
-                      />{" "}
-                      Web Development
+                    <Link to="services/degitalmarketing">
+                      <i className="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+                      Digital marketing
                     </Link>
                   </li>
                 </ul>
@@ -142,39 +144,7 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="footer-icons mb-4 icoFacebook">
-                <a
-                  className="facebook"
-                  title="facebook"
-                  href="https://www.facebook.com/"
-                >
-                  <i className="fa fa-facebook" />
-                </a>
-                <a
-                  className="gplus"
-                  title="linkedin"
-                  href="https://www.linkedin.com/"
-                >
-                  <i className="fa fa-linkedin" />
-                </a>
-                <a
-                  className="twitter"
-                  title="twitter"
-                  href="https://twitter.com/"
-                >
-                  <i className="fa fa-twitter" />
-                </a>
-                <a
-                  className="github"
-                  title="youtube"
-                  href="https://www.youtube.com/"
-                >
-                  <i className="fa fa-youtube-play" />
-                </a>
-              </div>
-              <p>
-                <span>Us It</span> © 2022. All Right Reserved Malo.
-              </p>
+              <p>Copyright @ 2022 Logistics.All Rights Reserved</p>
             </div>
           </div>
         </div>

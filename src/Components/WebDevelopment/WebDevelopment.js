@@ -7,7 +7,7 @@ export default function WebDevelopment() {
   return (
     <>
       <PageHeader title="Web Development" />
-      <ServiceDetails />
+      <ServiceDetails title="Web Development" />
     </>
   );
 }

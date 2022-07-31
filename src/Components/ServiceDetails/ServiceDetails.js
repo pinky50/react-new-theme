@@ -1,43 +1,13 @@
-import RoundBtn from "../RoundBtn/RoundBtn";
+import React from "react";
 import "./ServiceDetails.css";
+import ServiceDetailsLeft from "../ServiceDetailsLeft/ServiceDetailsLeft";
 
-export default function ServiceDetails() {
+export default function ServiceDetails({ title }) {
   return (
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-4">
-          <div className="services-details-left">
-            <div className="special-links">
-              <ul>
-                <h2 className="mb-4">All Services</h2>
-                <li>
-                  <a href="#!" className="active">
-                    Web development
-                  </a>
-                </li>
-                <li>
-                  <a href="#!">Software development</a>
-                </li>
-                <li>
-                  <a href="#!">Taxes Planing</a>
-                </li>
-                <li>
-                  <a href="#!">Business Loan</a>
-                </li>
-                <li>
-                  <a href="#!">Insurance Consulting</a>
-                </li>
-                <li>
-                  <a href="#!">Investments Managment</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="service-widget service-banner">
-            <span>Offer Banner</span>
-            <h3>Do You Have a Project In Your Mind </h3>
-            <RoundBtn content="Get Started" />
-          </div>
+          <ServiceDetailsLeft />
         </div>
         <div className="col-md-8">
           <div className="services-details-img">
@@ -48,7 +18,7 @@ export default function ServiceDetails() {
             />
           </div>
           <div className="services-title">
-            <h4 className="mt-2 mb-2">Financial Planing</h4>
+            <h2 className="mt-2 mb-2">{title}</h2>
           </div>
           <div className="services-details">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent

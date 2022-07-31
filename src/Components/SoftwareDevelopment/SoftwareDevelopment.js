@@ -1,11 +1,13 @@
 import React from "react";
-// import Dropdown from "../Dropdown/Dropdown";
+import PageHeader from "../PageHeader/PageHeader";
+import ServiceDetails from "../ServiceDetails/ServiceDetails";
 import "./SoftwareDevelopment.css";
 
 export default function SoftwareDevelopment() {
   return (
     <>
-      <h1>I am software</h1>
+      <PageHeader title="Software Development" />
+      <ServiceDetails title="Software Development" />
     </>
   );
 }

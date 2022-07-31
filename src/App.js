@@ -12,6 +12,8 @@ import WebDevelopment from "./Components/WebDevelopment/WebDevelopment";
 import SoftwareDevelopment from "./Components/SoftwareDevelopment/SoftwareDevelopment";
 import Navigation from "./Components/Navigation/Navigation";
 import PageNotFound from "./Components/PageNotFound/PageNotFound";
+import GraphicDesign from "./Components/GraphicDesign/GraphicDesign";
+import DigitalMarketing from "./Components/DigitalMarketing/DigitalMarketing";
 
 function App() {
   return (
@@ -27,6 +29,11 @@ function App() {
           <Route
             path="services/softwaredevelopment"
             element={<SoftwareDevelopment />}
+          />
+          <Route path="services/graphicdesign" element={<GraphicDesign />} />
+          <Route
+            path="services/digitalmarketing"
+            element={<DigitalMarketing />}
           />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />

@@ -127,7 +127,7 @@ const Navbarmenu = () => {
                       <NavLink
                         onClick={toggleClass}
                         activeclassname="is-active"
-                        to={`/Offline`}
+                        to={`/services/graphicdesign`}
                       >
                         {" "}
                         Graphic Design{" "}
@@ -137,7 +137,7 @@ const Navbarmenu = () => {
                       <NavLink
                         onClick={toggleClass}
                         activeclassname="is-active"
-                        to={`/Offline`}
+                        to={`/services/digitalmarketing`}
                       >
                         {" "}
                         Digital Marketing{" "}

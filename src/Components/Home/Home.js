@@ -4,10 +4,10 @@ import Hero from "../Hero/Hero";
 import Services from "../Services/Services";
 import SlideImage from "../SlideImage/SlideImage";
 import Softwares from "../Softwares/Softwares";
-import PortfolioGallery from "../PortfolioGallery/PortfolioGallery";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 import AnyQuestion from "../AnyQuestion/AnyQuestion";
 import Team from "../Team/Team";
+import Works from "../Works/Works";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
           our <span>key experience</span>
         </h1>
       </Heading>
-      <PortfolioGallery />
+      <Works />
       <div className="pt-4 pb-5 mt-4" style={{ backgroundColor: "#F2F6F7" }}>
         <Heading content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti accusantium, aliquam laborum tempore molestias! ">
           <h1>

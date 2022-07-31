@@ -45,7 +45,7 @@ export default function Services() {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <Service
               title="Web Development"
-              content="Our solutions are based on realistic business analysis to reinvent your company showcase and enhance customer experience. To meet your business challenges, we build native end-to-end solutions for your market requirements."
+              content="Pointing on different industry trends, polishes solutions and services to meet the customized requirements for players across different industries."
               link="services/webdevelopment"
             >
               {/* <i className="fa fa-globe" aria-hidden="true"></i> */}
