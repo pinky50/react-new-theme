@@ -79,6 +79,7 @@ li {
   position: relative;
   background-color: #fff;
   height: 89px;
+  box-shadow: 0 5px 5px -2px rgba(0,0,0,.2);
 }
 .header__middle__logo > a > h1 {
   color: #07a8ff;
@@ -118,9 +119,9 @@ li {
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
 
-@media (max-width:767px) { 
+
   .header__middle .active {color: #009cce!important;}
-}
+
 
 @media (min-width:992px) { 
   .sub__menus__arrows:hover .sub__menus{

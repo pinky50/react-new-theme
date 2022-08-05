@@ -33,12 +33,12 @@ const Navbarmenu = () => {
   }
 
   return (
-    <header className="header__middle">
+    <header id="navbar_top" className="header__middle navbar_nav ">
       <div className="container">
         <div className="row">
           {/* Add Logo  */}
           <div className="header__middle__logo">
-            <NavLink exact="true" activeclassname="is-active" to="/">
+            <NavLink exact="true" activeclassname="active" to="/">
               <img src={logo} alt="logo" />
             </NavLink>
           </div>
@@ -74,7 +74,7 @@ const Navbarmenu = () => {
                 <li className="menu-item">
                   <NavLink
                     exact="true"
-                    activeclassname="is-active"
+                    activeclassname="active"
                     onClick={toggleClass}
                     to={`/`}
                   >
@@ -85,7 +85,7 @@ const Navbarmenu = () => {
                 <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
-                    activeclassname="is-active"
+                    activeclassname="active"
                     to={`/About`}
                   >
                     {" "}
@@ -106,7 +106,7 @@ const Navbarmenu = () => {
                       {" "}
                       <NavLink
                         onClick={toggleClass}
-                        activeclassname="is-active"
+                        activeclassname="active"
                         to={`/services/webdevelopment`}
                       >
                         {" "}
@@ -116,7 +116,7 @@ const Navbarmenu = () => {
                     <li>
                       <NavLink
                         onClick={toggleClass}
-                        activeclassname="is-active"
+                        activeclassname="active"
                         to={`/services/softwaredevelopment`}
                       >
                         {" "}
@@ -126,7 +126,7 @@ const Navbarmenu = () => {
                     <li>
                       <NavLink
                         onClick={toggleClass}
-                        activeclassname="is-active"
+                        activeclassname="active"
                         to={`/services/graphicdesign`}
                       >
                         {" "}
@@ -136,7 +136,7 @@ const Navbarmenu = () => {
                     <li>
                       <NavLink
                         onClick={toggleClass}
-                        activeclassname="is-active"
+                        activeclassname="active"
                         to={`/services/digitalmarketing`}
                       >
                         {" "}
@@ -148,7 +148,7 @@ const Navbarmenu = () => {
                 <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
-                    activeclassname="is-active"
+                    activeclassname="active"
                     to={`/portfolio`}
                   >
                     {" "}
@@ -158,7 +158,7 @@ const Navbarmenu = () => {
                 <li className="menu-item ">
                   <NavLink
                     onClick={toggleClass}
-                    activeclassname="is-active"
+                    activeclassname="active"
                     to={`/Contact`}
                   >
                     {" "}
